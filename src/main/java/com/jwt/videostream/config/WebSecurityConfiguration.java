@@ -30,7 +30,8 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-    //@bala
+    //@bala vignesh
+    vignesh
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
       	httpSecurity
